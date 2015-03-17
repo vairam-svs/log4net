@@ -17,7 +17,7 @@
 //
 #endregion
 
-#if FRAMEWORK_3_5_OR_ABOVE
+#if FRAMEWORK_4_6_OR_ABOVE
 
 using System;
 

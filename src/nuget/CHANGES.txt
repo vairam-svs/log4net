@@ -1,0 +1,15 @@
+﻿NOTE: A combined description of changes since log4Net 1.4.0
+
+log4Net 1.4.0 Alpha 1 - March 17, 2015
+
+General
+
+ * .NET Framework 4.6 is now included.
+
+Framework
+
+log4Net 1.4.0 Alpha 1 - March 17, 2015
+
+General
+
+ * Built on .NET Framework 4.6 all other versions removed.
