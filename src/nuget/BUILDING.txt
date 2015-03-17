@@ -1,0 +1,3 @@
+Building log4Net 1.4.0
+
+log4Net 1.40 is built on .NET 4.6 CTP6 and will be continued to maintain for latest version.

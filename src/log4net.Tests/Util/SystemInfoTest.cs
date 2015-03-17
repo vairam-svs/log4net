@@ -126,7 +126,7 @@ namespace log4net.Tests.Util
 			Assert.AreSame(typeof(SystemInfo), t, "Test explicit case in-sensitive type load lower");
 		}
 
-		[Test, ExpectedException(typeof(TypeLoadException))]
+		[Test( ExpectedResult = typeof(TypeLoadException))]
 		public void TestGetTypeFromStringFails1()
 		{
 			Type t;
@@ -137,7 +137,7 @@ namespace log4net.Tests.Util
 			t = SystemInfo.GetTypeFromString("LOG4NET.TESTS.UTIL.SYSTEMINFOTEST,LOG4NET.TESTS", true, false);
 		}
 
-		[Test, ExpectedException(typeof(TypeLoadException))]
+		[Test( ExpectedResult = typeof(TypeLoadException))]
 		public void TestGetTypeFromStringFails2()
 		{
 			Type t;
